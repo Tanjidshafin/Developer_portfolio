@@ -290,7 +290,7 @@ gap: 15px;
   transition: all 300ms ease-in-out;
   cursor: pointer;
  }
- header, .About-me-Main{
+ header{
   display: none;
  }
  @media screen  and (max-width: 576px) {
@@ -298,11 +298,25 @@ gap: 15px;
     margin: 0 auto;
     padding:0;
   }
+.About-me-Main{
+  padding: 10vw;
+}
+.my-info{
+  flex-direction: column;
+}
+.about-me-descrip{
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.what-i-do-main{
+  padding: 10vw;
+}
+
   .what-i-do-skills{
     flex-direction: column;
   }
   .resume-container{
-margin: 0 20vw;
+padding: 10vw;
   }
   .resume-main{
     flex-direction: column;
@@ -310,6 +324,10 @@ margin: 0 20vw;
   }
   .last-section-main{
     flex-direction: column-reverse;
-  }
+    padding: 10vw;
 
  }
+ .message-align{
+  width: fit-content;
+ }
+}
