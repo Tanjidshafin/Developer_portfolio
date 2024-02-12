@@ -68,7 +68,7 @@ nav {
   font-weight: 700;
   color: white;
   border: none;
-  border: 2px solid;
+  border: 2px solid fd6e0a;
   padding: 18px 35px;
   text-align: center;
 }
@@ -240,7 +240,7 @@ gap: 15px;
 .Name-option{
   border: none;
   padding: 10px 0;
-  width: 70vw;
+  width: 75vw;
   margin-top: 30px;
   
 }
@@ -249,12 +249,12 @@ gap: 15px;
   margin-bottom: 24px;
   margin-top: 24px;
   padding: 10px 0px;
-  width: 70vw;
+  width: 75vw;
 }
 .textarea-option{
   border: none;
   padding: 10px 0;
-  width: 70vw;
+  width: 75vw;
   margin-bottom: 25px;
 }
  .connect-title{
@@ -290,9 +290,7 @@ gap: 15px;
   transition: all 300ms ease-in-out;
   cursor: pointer;
  }
- .front-page{
-  display: none;
- }
+ 
  
  @media screen  and (max-width: 576px) {
 nav{
@@ -312,7 +310,43 @@ nav ul li{
   text-align: center;
   margin-bottom: 20px;
 }
- 
+ .front-page{
+  flex-wrap: wrap;
+  
+ }
+ .front-page img{
+  height: 33%;
+  
+
+ }
+ .fp-img-align{
+  text-align: center;
+ }
+ .fp-firstline{
+  margin: 0;
+  text-align: center;
+  font-size: 7vw;
+  margin-bottom: 10px;
+ }
+ .fp-secondline{
+  margin: 0;
+  text-align: center;
+  font-size: 12vw;
+  margin-bottom: 5px;
+ }
+ .fp-thirdline{
+  text-align: center;
+  
+ }
+ .fp-btn{
+  text-align: center;
+ }
+ .btn-secondary{
+  padding: 10px 10px;
+ }
+ .btn-secondary:hover{
+  border: 10px;
+ }
  
  
   .container{
