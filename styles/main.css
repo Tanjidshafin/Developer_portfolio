@@ -290,3 +290,26 @@ gap: 15px;
   transition: all 300ms ease-in-out;
   cursor: pointer;
  }
+ header, .About-me-Main{
+  display: none;
+ }
+ @media screen  and (max-width: 576px) {
+  .container{
+    margin: 0 auto;
+    padding: ;
+  }
+  .what-i-do-skills{
+    flex-direction: column;
+  }
+  .resume-container{
+margin: 0 20vw;
+  }
+  .resume-main{
+    flex-direction: column;
+ 
+  }
+  .last-section-main{
+    flex-direction: column-reverse;
+  }
+
+ }
